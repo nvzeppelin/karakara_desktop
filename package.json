@@ -1,0 +1,12 @@
+{
+  "name": "karakara_desktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nvzeppelin/karakara_desktop.git",
+  "author": "nvzeppelin <noah@vonzeppelin.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  }
+}
