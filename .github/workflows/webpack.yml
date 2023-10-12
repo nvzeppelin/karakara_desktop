@@ -21,6 +21,8 @@ jobs:
         node-version: 18.x
 
     - name: Build
+      env: 
+        GH_TOKEN: ${{ secrets.GH_PAT }}
       run: |
         yarn
         yarn electron-builder
